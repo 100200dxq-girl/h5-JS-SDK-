@@ -22,8 +22,8 @@ export function wx_shareInfor(params = {}) {
         const title = params.title,
             desc = params.desc,
             timeLinetitle = params.timeLinetitle,
-            myurl = params.myurl || "https://www.51youpian.com",
-            imgUrl = params.imgUrl ||'https://mmbiz.qpic.cn/mmbiz_jpg/gnZ8N47iaS51rLiaLmibA7yTkFRjwgjrdfwfL7RXRRysQBkyMO77Xkjmz6EfnBU5cBMiae1BbWhQYKibo2OPPCpGO5w/0?wx_fmt=jpeg';
+            myurl = params.myurl || "https://www.xxx.com",
+            imgUrl = params.imgUrl ||'https://xxx.qpic.cn/mmbiz_jpg/gnZ8N47iaS51rLiaLmibA7yTkFRjwgjrdfwfL7RXRRysQBkyMO77Xkjmz6EfnBU5cBMiae1BbWhQYKibo2OPPCpGO5w/0?wx_fmt=jpeg';
             // imgUrl = 'https://www.51youpian.com/file/oss/test/image/nft-goods/5bd26e9416a54a009ca7af6acde016c7.jpeg';
         //分享给朋友
         wx.updateAppMessageShareData({
