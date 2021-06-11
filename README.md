@@ -34,9 +34,9 @@ SPA与MPA参考：https://www.cnblogs.com/linybo/p/13322237.html
 
  params = {
  
-               title:'来NFTBOX你的第⼀款NFT',//标题
+               title:'哈哈哈',//标题
                 
-               desc:'全球领先的数字收藏品交易平台，您可购买、出售和发现独家数字资产，如知名明星签名照⽚、动漫卡牌等。',//描述
+               desc:'全球领先的哈哈哈。',//描述
                 
                myurl: location.href,//跳转链接
                
