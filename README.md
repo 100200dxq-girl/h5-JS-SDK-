@@ -1,8 +1,12 @@
 # h5-JS-SDK-
-h5页面调用微信JS-SDK分享到微信好友或者朋友圈的配置 微信API：https://developers.weixin.qq.com/doc/offiaccount/OA_Web_Apps/JS-SDK.html
+h5页面调用微信JS-SDK分享到微信好友或者朋友圈的配置 
+
+参考文档：
+微信API：https://developers.weixin.qq.com/doc/offiaccount/OA_Web_Apps/JS-SDK.html
 
 全流程参考：https://www.cnblogs.com/xjbBill/p/7868095.html
-【SPA与MPA参考：https://www.cnblogs.com/linybo/p/13322237.html】
+
+SPA与MPA参考：https://www.cnblogs.com/linybo/p/13322237.html
 
 引入<script type="text/javascript" src="http://res.wx.qq.com/open/js/jweixin-1.2.0.js"></script>
 
