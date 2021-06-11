@@ -1,7 +1,7 @@
 import { WX } from "@/config/rest.api";
 export function wx_shareInfor(params = {}) {
     let data = {};
-    WX.getWxConfig({url:params.url}).then((res) => {
+    WX.getWxConfig({url:params.url}).then((res) => { //eg:后端接口
         if (res.code === 1) {
             data = res.data;
             // console.log("config", data);
