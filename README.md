@@ -32,11 +32,18 @@ SPA与MPA参考：https://www.cnblogs.com/linybo/p/13322237.html
 
 #imgUrl:转发出去的缩略图ios无法识别外链接的 所以需要将图片先传到微信，拿到相应的微信后的链接。
 
-# params = {
-#                title:'来NFTBOX你的第⼀款NFT',//标题
-#                desc:'全球领先的数字收藏品交易平台，您可购买、出售和发现独家数字资产，如知名明星签名照⽚、动漫卡牌等。',//描述
-#               myurl: location.href,//跳转链接
-#               imgUrl:imgUrl,//缩略图
-#               timeLinetitle:'国内领先-------！',//朋友圈描述（share.js把朋友和朋友圈封装在一起，跟title一样～）
-# };
-# wx_shareInfor(）
+ params = {
+ 
+               title:'来NFTBOX你的第⼀款NFT',//标题
+                
+               desc:'全球领先的数字收藏品交易平台，您可购买、出售和发现独家数字资产，如知名明星签名照⽚、动漫卡牌等。',//描述
+                
+               myurl: location.href,//跳转链接
+               
+               imgUrl:imgUrl,//缩略图
+               
+               timeLinetitle:'国内领先-------！',//朋友圈描述（share.js把朋友和朋友圈封装在一起，跟title一样～）
+               
+ };
+ 
+wx_shareInfor(）
